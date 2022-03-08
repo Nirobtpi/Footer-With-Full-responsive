@@ -1,0 +1,21 @@
+@media screen and (max-width:992px){
+    footer{
+        .footer-widget{
+            justify-content: space-between;
+            .single-footer{
+                flex-basis: 50%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width:576px){
+    footer{
+        .footer-widget{
+            .single-footer{
+                flex-basis: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
